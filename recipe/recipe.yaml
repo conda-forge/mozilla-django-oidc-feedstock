@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: mozilla-django-oidc
-  version: "5.0.1"
+  version: "5.0.2"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mozilla_django_oidc-${{ version }}.tar.gz
-  sha256: ed9eaba7b0023e984f4859f01504e5006fad6ff132c9741a01318cc045bf2c7f
+  sha256: 4e953dcd963c036daaa2ac42b5bb6ea89a1c6ea7be0387c2022a59aca2f83043
 
 build:
   number: 0
